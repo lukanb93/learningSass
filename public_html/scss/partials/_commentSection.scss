@@ -1,9 +1,7 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Dec 15, 2023, 3:22:56 PM
-    Author     : L
-*/
+$comment-bg : $white;
 
+.comment-section{
+    
+    padding: 30px 0;
+    background: $comment-bg;
+}
