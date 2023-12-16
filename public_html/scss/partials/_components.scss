@@ -1,0 +1,55 @@
+$button-default-color : $white;
+
+$button-default : $dark-gray;
+$button-danger : $red;
+$button-success : $green;
+$button-warning : $orange;
+$button-info : $blue;
+$button-dark : $black;
+
+%btn{
+    display: inline-block;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-default{
+    @extend %btn;
+    background-color: $button-default;
+    color: $button-default-color;
+}
+
+.btn-danger{
+    @extend %btn;
+    background-color: $button-danger;
+    color: $button-default-color;
+}
+
+.btn-success{
+    @extend %btn;
+    background-color: $button-success;
+    color: $button-default-color;
+}
+
+.btn-warning{
+    @extend %btn;
+    background-color: $button-warning;
+    color: $button-default-color;
+}
+
+.btn-info{
+    @extend %btn;
+    background-color: $button-info;
+    color: $button-default-color;
+}
+
+.btn-dark{
+    @extend %btn;
+    background-color: $button-dark;
+    color: $button-default-color;
+}

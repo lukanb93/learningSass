@@ -1,4 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Rubik:wght@400;700&display=swap");
+.btn-default, .btn-danger, .btn-success, .btn-warning, .btn-info, .btn-dark {
+  display: inline-block;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-default {
+  background-color: #3b3838;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #ad111e;
+  color: #fff;
+}
+
+.btn-success {
+  background-color: #6bfc03;
+  color: #fff;
+}
+
+.btn-warning {
+  background-color: #d95d04;
+  color: #fff;
+}
+
+.btn-info {
+  background-color: #043dd9;
+  color: #fff;
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
 /* font-family: 'Josefin Sans', sans-serif;
 
     font-family: 'Lato', sans-serif;
