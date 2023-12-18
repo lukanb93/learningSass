@@ -8,19 +8,19 @@ header{
     background-color: $header-bg;
     .branding{
         text-align: center;
-        
+
         a{
             color: $header-link-color;
         }
     }
-    
+
     nav{
         ul{
             list-style: none;
             padding-left: 0;
-            
+
             li{
-                
+
                 a{
                     display: block;
                     padding: 5px 0;
@@ -29,16 +29,21 @@ header{
                     font-family: $nav-font;
                     text-transform: uppercase;
                     font-weight: $font-bold;
-                    
-                }
-                
-                a:hover{
-                    color: $nav-link-active;
+
+
+
+                    &:hover,
+                        &.active{
+                        color: complement($header-bg);
+                    }
                 }
             }
-        } //ul end
-    } //nav end
-} //header end
+        }
+        //ul end
+    }
+    //nav end
+}
+//header end
 
 
 
@@ -48,10 +53,10 @@ header{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            
+
             ul{
                 display: flex;
-                
+
                 li{
                     a{
                         padding:5px;

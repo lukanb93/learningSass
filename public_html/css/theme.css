@@ -15,9 +15,17 @@
   color: #fff;
 }
 
+.btn-default:hover {
+  background-color: #211f1f;
+}
+
 .btn-danger {
   background-color: #ad111e;
   color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: rgba(173, 17, 30, 0.2);
 }
 
 .btn-success {
@@ -25,9 +33,17 @@
   color: #fff;
 }
 
+.btn-success:hover {
+  background-color: #56ca02;
+}
+
 .btn-warning {
   background-color: #d95d04;
   color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #a74803;
 }
 
 .btn-info {
@@ -35,9 +51,17 @@
   color: #fff;
 }
 
+.btn-info:hover {
+  background-color: #032fa7;
+}
+
 .btn-dark {
   background-color: #000;
   color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #1a1a1a;
 }
 
 /* font-family: 'Josefin Sans', sans-serif;
@@ -452,8 +476,8 @@ header nav ul li a {
   font-weight: 700;
 }
 
-header nav ul li a:hover {
-  color: #6bfc03;
+header nav ul li a:hover, header nav ul li a.active {
+  color: #199e05;
 }
 
 @media (min-width: 768px) {
@@ -539,7 +563,7 @@ footer ul li a {
 }
 
 footer ul li a:hover, footer ul li a.active {
-  color: #6bfc03;
+  color: #21cf07;
 }
 
 footer p {
