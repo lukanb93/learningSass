@@ -1,9 +1,61 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Dec 15, 2023, 3:23:07 PM
-    Author     : L
-*/
 
+$thead-bg : $purple;
+$thead-color : $white;
+$table-border : 1px solid $black;
+$tbody-bg-odd : lighten($light-gray, 10%);
+$tbody-bg-even : $white;
+$tr-hover-even : darken($tbody-bg-odd, 30%);
+$tr-hover-odd : darken($white, 30%);
+
+
+
+.courses-section{
+    padding: 50px 0;
+    .course-header{
+        text-align: left;
+    }
+    table{
+        border: $table-border;
+        border-collapse: collapse;
+        width: 100%;
+        caption{
+            text-align: left;
+            font-style: italic;
+        }
+        thead{
+            background-color: $thead-bg;
+            color: $thead-color;
+            th{
+                padding: 10px 20px;
+                font-size: 1.4rem;
+            }         
+        }
+        tbody{
+            tr{
+                cursor: pointer;
+                &:nth-of-type(even){
+                   background-color: $tbody-bg-even;
+                }
+                &:hover:nth-of-type(even){
+                    background-color: $tr-hover-even;
+                }
+                
+                &:nth-of-type(odd){
+                    background-color: darken($tbody-bg-odd, 10%);
+                }
+                &:hover:nth-of-type(odd){
+                    background-color: $tr-hover-odd;
+                }
+            }   
+             th, td{
+                border: $table-border;
+                padding: 15px 0;    
+            }
+            td{
+                padding-left: 5px;
+            }
+        }
+        
+
+    }
+}

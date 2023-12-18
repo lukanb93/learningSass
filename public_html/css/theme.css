@@ -526,14 +526,64 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit thi
   background: #fff;
 }
 
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
-*/
-/*
-    Created on : Dec 15, 2023, 3:23:07 PM
-    Author     : L
-*/
+.courses-section {
+  padding: 50px 0;
+}
+
+.courses-section .course-header {
+  text-align: left;
+}
+
+.courses-section table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.courses-section table caption {
+  text-align: left;
+  font-style: italic;
+}
+
+.courses-section table thead {
+  background-color: #8a059e;
+  color: #fff;
+}
+
+.courses-section table thead th {
+  padding: 10px 20px;
+  font-size: 1.4rem;
+}
+
+.courses-section table tbody tr {
+  cursor: pointer;
+}
+
+.courses-section table tbody tr:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.courses-section table tbody tr:hover:nth-of-type(even) {
+  background-color: #b3b3b3;
+}
+
+.courses-section table tbody tr:nth-of-type(odd) {
+  background-color: #e6e6e6;
+}
+
+.courses-section table tbody tr:hover:nth-of-type(odd) {
+  background-color: #b3b3b3;
+}
+
+.courses-section table tbody th, .courses-section table tbody td {
+  border: 1px solid #000;
+  padding: 15px 0;
+}
+
+.courses-section table tbody td {
+  padding-left: 5px;
+}
+
 /*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/style.scss to edit this template
