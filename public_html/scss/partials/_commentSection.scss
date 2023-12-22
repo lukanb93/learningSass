@@ -5,3 +5,9 @@ $comment-bg : $white;
     padding: 30px 0;
     background: $comment-bg;
 }
+
+.comment-img{
+    img{
+        @include radius(50%);
+    }
+}
